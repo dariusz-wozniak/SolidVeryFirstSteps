@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Responsibilities:&#xD;&#xA;- Rectangle formulae&#xD;&#xA;- UI drawing&#xD;&#xA;- XML serialization&#xD;&#xA;">
+    <Position X="2.646" Y="0.797" Height="0.911" Width="1.487" />
+  </Comment>
+  <Class Name="Solid.SingleResponsibilityPrinciple.Rectangle">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAgAAAAAAAAAAAAAEAAAAAEAAAAAA=</HashCode>
+      <FileName>SingleResponsibilityPrinciple\Example1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

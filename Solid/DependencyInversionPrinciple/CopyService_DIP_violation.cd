@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Problems:&#xD;&#xA;- reusability&#xD;&#xA;- dependencies&#xD;&#xA;">
+    <Position X="2.174" Y="0.511" Height="0.629" Width="1.7" />
+  </Comment>
+  <Class Name="Solid.DependencyInversionPrinciple.CopyService">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAgAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DependencyInversionPrinciple\CopyMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

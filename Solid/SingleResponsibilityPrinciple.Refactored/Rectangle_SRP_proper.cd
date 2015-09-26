@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Responsibilities:&#xD;&#xA;- Rectangle formulae&#xD;&#xA;">
+    <Position X="0.521" Y="2.109" Height="0.421" Width="1.487" />
+  </Comment>
+  <Comment CommentText="Responsibilities:&#xD;&#xA;- XML serialization&#xD;&#xA;">
+    <Position X="4.885" Y="0.531" Height="0.494" Width="1.487" />
+  </Comment>
+  <Comment CommentText="Responsibilities:&#xD;&#xA;- UI drawing&#xD;&#xA;">
+    <Position X="4.344" Y="2.427" Height="0.442" Width="1.487" />
+  </Comment>
+  <Class Name="Solid.SingleResponsibilityPrinciple.Refactored.Rectangle">
+    <Position X="0.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAEAAAAAA=</HashCode>
+      <FileName>SingleResponsibilityPrinciple.Refactored\Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Solid.SingleResponsibilityPrinciple.Refactored.RectangleDrawer">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SingleResponsibilityPrinciple.Refactored\Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Solid.SingleResponsibilityPrinciple.Refactored.RectangleSerializer">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SingleResponsibilityPrinciple.Refactored\Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
