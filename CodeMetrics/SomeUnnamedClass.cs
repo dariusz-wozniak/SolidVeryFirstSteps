@@ -1,6 +1,5 @@
 ﻿using Solid.DependencyInversionPrinciple.Refactored;
 using Solid.InterfaceSegregationPrinciple;
-using Solid.LiskovSubstitutionPrinciple;
 using Solid.OpenClosedPrinciple;
 using Solid.OpenClosedPrinciple.Refactored;
 
