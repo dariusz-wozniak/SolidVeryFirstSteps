@@ -97,9 +97,9 @@
     <CodeContractsAnalysisWarningLevel>0</CodeContractsAnalysisWarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\cs\NUnit-2.6.0.12051\bin\framework\nunit.framework.dll</HintPath>
+    <Reference Include="nunit.framework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.6.1\lib\net40\nunit.framework.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -147,6 +147,7 @@
     <None Include="LiskovSubstitutionPrinciple.Refactored\Design\Rectangle_LSP_proper_bydesign.cd" />
     <None Include="LiskovSubstitutionPrinciple\Rectangle_LSP_violation.cd" />
     <None Include="OpenClosedPrinciple.Refactored\ShapeDrawingUtility_OCP_proper.cd" />
+    <None Include="packages.config" />
     <None Include="SingleResponsibilityPrinciple.Refactored\Rectangle_SRP_proper.cd" />
     <None Include="SingleResponsibilityPrinciple\Rectangle_SRP_violation.cd" />
   </ItemGroup>
