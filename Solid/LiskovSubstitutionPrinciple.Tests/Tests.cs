@@ -6,22 +6,17 @@ namespace Solid.LiskovSubstitutionPrinciple.Tests
     [TestFixture(typeof(Square))]
     public class Tests<T> where T : Rectangle, new()
     {
-        private Rectangle _rectangle;
-
-        [SetUp]
-        public void Setup()
-        {
-            _rectangle = new T();
-        }
-
         [Test]
         public void Invariant()
         {
-            _rectangle.Height = 30;
-            _rectangle.Width = 40;
+            var rectangle = new T
+            {
+                Height = 30,
+                Width = 40
+            };
 
-            Assert.AreEqual(30, _rectangle.Height);
-            Assert.AreEqual(40, _rectangle.Width);
+            Assert.That(rectangle.Height, Is.EqualTo(30));
+            Assert.That(rectangle.Width, Is.EqualTo(40));
         }
     }
 }
